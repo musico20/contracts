@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-contract PodFiContract is ChainlinkClient, ERC721 {
+contract MusicoContract is ChainlinkClient, ERC721 {
     using Chainlink for Chainlink.Request;
 
     uint256 private fee;

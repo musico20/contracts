@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
 
-contract PodfiPodcast is PausableUpgradeable, ReentrancyGuardUpgradeable {
+contract MusiocPodCast is PausableUpgradeable, ReentrancyGuardUpgradeable {
   enum PodcastStatus {
     Ongoing,
     Ended

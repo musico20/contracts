@@ -7,7 +7,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import {Counters} from  "@openzeppelin/contracts/utils/Counters.sol";
 import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
-contract PodFiPlatform is Ownable {
+contract MusicoPlatform is Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _listenerId;
     Counters.Counter private _podcastId;

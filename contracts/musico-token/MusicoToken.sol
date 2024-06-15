@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract PodFiToken is ERC20 {
+contract MusicoToken is ERC20 {
     // Token distribution amounts
     uint256 private constant AUDIENCE_LISTEN_REWARD = 5 * 10**18; // 5 POD
     uint256 private constant AUDIENCE_LIKE_REWARD = 3 * 10**18; // 3 POD
