@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_zetaAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "targetChain",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "interactAcrossChains",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CrossChainSmartContract.sol": "CrossChainSmartContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CrossChainSmartContract.sol": {
+			"keccak256": "0x616ce739fcb3b0fd12f6166e5e9190a3875a2bc81ceb18f941e239862894739c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93bbba5cb32840d7e82aa68917a068ea5a82013679d4cab860c0e9e2c2d63932",
+				"dweb:/ipfs/QmP9Bngt87531Aymp3P7pvzWPTZvyBqWSJfT19Bz3jjjG8"
+			]
+		}
+	},
+	"version": 1
+}
